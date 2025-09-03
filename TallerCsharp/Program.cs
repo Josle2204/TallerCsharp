@@ -12,6 +12,7 @@ namespace TallerCsharp
         {
             //--Escribir mensaje--
             Console.WriteLine("Bienvenido a C#");
+            Console.WriteLine("WAZA2");
 
             //--Definir variables--
             int a, b, producto;
