@@ -18,13 +18,13 @@ namespace TallerCsharp
 
             //--Entrada de Datos--
 
-            Console.WriteLine("Ingrese Segundo Numero:");
+            Console.WriteLine("Ingrese Primer Numero:");
             //Guardar valor e la consola
             a= int.Parse(Console.ReadLine());
             //Valida si es número sí o sí
             //a= int.TryParse(Console.ReadLine());  //Boolean True o Flase
 
-            Console.WriteLine("Ingrese Primer Numero:");
+            Console.WriteLine("Ingrese Segundo Numero:");
             //Guardar valor e la consola
             b = Convert.ToInt32(Console.ReadLine());
             //Covnierte cualquier valor a numero
@@ -38,6 +38,11 @@ namespace TallerCsharp
             Console.WriteLine($"El producto de {a} * {b} = {producto+2}");
 
 
+            Console.WriteLine(); //Salto de Linea
+            Console.WriteLine("Algoritmo area triangulo:");
+
+            ejercicio1 ej1 = new ejercicio1();
+            ej1.areatriangulo();
             //Detener pantalla para mostrar el resultado
             Console.ReadKey();
         }
